@@ -7,19 +7,20 @@ export default function Page() {
         Hi, I'm Geronimo Wolf
       </h1>
       <p className="mb-4">
-        {`I’m a lead consultant, developer and aspiring entrepreneur with a passion for 
-        technology and building businesses. My journey so far includes cloud architecture, 
-        data solutions and prototyping SaaS products. I strive to keep things efficient, 
-        scalable and simple — like this website.`}
+        {`I’m a lead consultant, developer, and aspiring entrepreneur with a passion for 
+        technology and building meaningful solutions. My journey so far has spanned 
+        cloud architecture, data solutions, and experimenting with SaaS product prototypes. 
+        I believe in keeping things efficient, scalable, and simple - qualities reflected 
+        in this website.`}
       </p>
       <p className="mb-4">
-        {`This site is a collection of my thoughts, projects and experiences as I explore 
-        what it takes to start and grow a business. From brainstorming ideas to turning them 
-        into reality, I’ll share the lessons learned along the way — successes and missteps 
-        alike — because every step shapes the journey.`}
+        {`This site marks the start of a new chapter for me. It’s where I’ll document my 
+        journey of exploring what it takes to start and grow a business. From brainstorming 
+        ideas to learning through missteps and celebrating those _“aha”_ moments, I hope 
+        to share something useful - not just for myself but for others on similar paths.`}
       </p>
       <p className="mb-4">
-        {`Thanks for stopping by. Feel free to reach out through LinkedIn or dive into the 
+        {`Thanks for stopping by. Feel free to connect with me on LinkedIn or dive into the 
         blog to join me on this entrepreneurial adventure!`}
       </p>
       <div className="my-8">
