@@ -3,25 +3,36 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
         Hi, I'm Geronimo Wolf
       </h1>
+      <h2 className="mb-6 font-medium tracking-tight text-gray-500">
+        Documenting My Journey to Build a Business
+      </h2>
       <p className="mb-4">
-        {`I’m a lead consultant, developer and aspiring entrepreneur with a passion for 
-        technology and building meaningful solutions. My journey so far has spanned 
-        IT consulting, freelance work, building a startup with two fellow students and 
-        experimenting with SaaS product prototypes. I believe in keeping things efficient, 
-        scalable and simple - qualities reflected in this website.`}
+        {`Welcome to my site, where I share the process of building a business from the ground up. 
+        This is about taking an idea and turning it into something real - one step at a time. Along 
+        the way, I’ll document what works, what doesn’t, and the lessons learned.`}
       </p>
       <p className="mb-4">
-        {`This site marks the start of a new chapter for me. It’s where I’ll document my 
-        journey of exploring what it takes to start and grow a business. From brainstorming 
-        ideas to learning through missteps and celebrating those “aha” moments, I hope 
-        to share something useful - not just for myself but for others on similar paths.`}
+        {`Here’s the roadmap I’m following:`}
+      </p>
+      <ul className="list-disc pl-5 mb-4">
+        <li>Identifying a business idea</li>
+        <li>Validating the idea</li>
+        <li>Creating a business</li>
+        <li>Building a business</li>
+        <li>Launching a business</li>
+        <li>Growing a business</li>
+      </ul>
+      <p className="mb-4">
+        {`Each step brings its own challenges, and I’ll be sharing the wins, missteps, and insights 
+        as I go. My goal is to provide something useful for others who are also exploring 
+        entrepreneurship or even just curious about the process.`}
       </p>
       <p className="mb-4">
-        {`Thanks for stopping by. Feel free to connect with me on LinkedIn or dive into the 
-        blog to join me on this entrepreneurial adventure! Let's see where this takes us.`}
+        {`Feel free to explore the blog for updates and reflections. Thanks for stopping by and let’s 
+        see where this journey leads!`}
       </p>
       <div className="my-8">
         <BlogPosts />
