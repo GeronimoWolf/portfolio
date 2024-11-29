@@ -7,11 +7,11 @@ export default function Page() {
         Hi, I'm Geronimo Wolf
       </h1>
       <p className="mb-4">
-        {`I’m a lead consultant, developer, and aspiring entrepreneur with a passion for 
+        {`I’m a lead consultant, developer and aspiring entrepreneur with a passion for 
         technology and building meaningful solutions. My journey so far has spanned 
-        cloud architecture, data solutions, and experimenting with SaaS product prototypes. 
-        I believe in keeping things efficient, scalable, and simple - qualities reflected 
-        in this website.`}
+        IT consulting, freelance work, building a startup with two fellow students and 
+        experimenting with SaaS product prototypes. I believe in keeping things efficient, 
+        scalable and simple - qualities reflected in this website.`}
       </p>
       <p className="mb-4">
         {`This site marks the start of a new chapter for me. It’s where I’ll document my 
@@ -21,7 +21,7 @@ export default function Page() {
       </p>
       <p className="mb-4">
         {`Thanks for stopping by. Feel free to connect with me on LinkedIn or dive into the 
-        blog to join me on this entrepreneurial adventure!`}
+        blog to join me on this entrepreneurial adventure! Let's see where this takes us.`}
       </p>
       <div className="my-8">
         <BlogPosts />
