@@ -17,14 +17,14 @@ export default function Page() {
       <p className="mb-4">
         {`Here’s the roadmap I’m following:`}
       </p>
-      <ul className="list-disc pl-5 mb-4">
+      <ol className="list-decimal pl-5 mb-4">
         <li>Identifying a business idea</li>
         <li>Validating the idea</li>
         <li>Creating a business</li>
         <li>Building a business</li>
         <li>Launching a business</li>
         <li>Growing a business</li>
-      </ul>
+      </ol>
       <p className="mb-4">
         {`Each step brings its own challenges, and I’ll be sharing the wins, missteps, and insights 
         as I go. My goal is to provide something useful for others who are also exploring 
