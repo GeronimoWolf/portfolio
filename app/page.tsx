@@ -16,7 +16,7 @@ export default function Page() {
       <p className="mb-4">
         {`This site marks the start of a new chapter for me. It’s where I’ll document my 
         journey of exploring what it takes to start and grow a business. From brainstorming 
-        ideas to learning through missteps and celebrating those _“aha”_ moments, I hope 
+        ideas to learning through missteps and celebrating those “aha” moments, I hope 
         to share something useful - not just for myself but for others on similar paths.`}
       </p>
       <p className="mb-4">
