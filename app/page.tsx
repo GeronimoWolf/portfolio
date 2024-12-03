@@ -23,9 +23,6 @@ export default function Page() {
         {`Feel free to explore the blog for updates and reflections. Thanks for stopping by and let's 
         see where this journey leads!`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
     </section>
   )
 }
