@@ -7,22 +7,42 @@ export default function Page() {
         Hi, I'm Geronimo Wolf
       </h1>
       <h2 className="mb-6 font-medium tracking-tight text-gray-500">
-        Documenting My Journey to Build a Business
+        Building in Public | Sharing the Entrepreneurial Journey
       </h2>
-      <p className="mb-4">
-        {`Welcome to my site, where I share the process of building a business from the ground up. 
-        This is about taking an idea and turning it into something real - one step at a time. Along 
-        the way, I'll document what works, what doesn't, and the lessons learned.`}
-      </p>
-      <p className="mb-4">
-        {`Each step brings its own challenges, and I'll be sharing the wins, missteps, and insights 
-        as I go. My goal is to provide something useful for others who are also exploring 
-        entrepreneurship or even just curious about the process.`}
-      </p>
-      <p className="mb-4">
-        {`Feel free to explore the blog for updates and reflections. Thanks for stopping by and let's 
-        see where this journey leads!`}
-      </p>
+      
+      <div className="prose prose-neutral dark:prose-invert">
+        <p className="mb-4">
+          {`I'm documenting my journey from zero to successful entrepreneur, sharing every step, 
+          misstep, and lesson learned along the way. No sugar-coating, just real experiences 
+          and honest insights.`}
+        </p>
+
+        <p className="mb-4">
+          {`What makes this different? I'm not writing from the finish line - I'm in the trenches 
+          right now, exploring business ideas, validating concepts, and building in public. You'll 
+          see the whole process unfold in real-time, including:`}
+        </p>
+
+        <ul className="mb-4 list-disc pl-4">
+          <li>How I generate and evaluate business ideas</li>
+          <li>The methods I use to validate market opportunities</li>
+          <li>My decision-making process and frameworks</li>
+          <li>The tools and resources I find most valuable</li>
+          <li>Regular updates on progress and setbacks</li>
+        </ul>
+
+        <p className="mb-4">
+          {`Whether you're an aspiring entrepreneur, someone curious about starting a business, 
+          or just interested in following along, you'll find practical insights and real-world 
+          experiences here. I hope you find it helpful.`}
+        </p>
+
+        <p>
+            {`I'm currently in the ideation phase, exploring potential business opportunities. 
+            Check out the roadmap for an overview of the different phases and 
+            check out the tracker for real-time updates on my progress.`}
+        </p>
+      </div>
     </section>
   )
 }
