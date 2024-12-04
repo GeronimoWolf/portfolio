@@ -12,7 +12,7 @@ export default function Page() {
       
       <div className="prose prose-neutral dark:prose-invert">
         <p className="mb-4">
-          {`I'm documenting my journey from zero to successful entrepreneur, sharing every step, 
+          {`I'm documenting my journey from zero to entrepreneur, sharing every step, 
           misstep, and lesson learned along the way. No sugar-coating, just real experiences 
           and honest insights.`}
         </p>
