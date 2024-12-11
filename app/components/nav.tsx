@@ -7,12 +7,7 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  '/roadmap': {
-    name: 'roadmap',
-  },
-  '/tracker': {
-    name: 'tracker',
-  },
+
 }
 
 export function Navbar() {
