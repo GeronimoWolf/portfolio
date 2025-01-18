@@ -1,0 +1,66 @@
+---
+title: 'Hoe ga je als publieke organisatie om met de kritiek op het Rijksbreed Cloudbeleid?'
+publishedAt: '2025-01-17'
+summary: 'A reflection on choosing simplicity over style for my website.'
+---
+
+
+In augustus 2022 werd de nieuwste versie van het Rijksbreed Cloudbeleid [test](hello) gepubliceerd. Dit beleid beoogt rijksoverheidsorganisaties een kader te bieden voor veilig en verantwoord gebruik van private en public clouddiensten. Kort na de publicatie uitte de Autoriteit Persoonsgegevens (AP) al stevige kritiek in een brief aan de staatssecretaris. Zo wees de AP op het onvoldoende adresseren van privacyrisico’s en noemde het beleid te vrijblijvend. 
+
+Neem dit voorbeeld: 
+
+- Voor persoonsgegevens geldt: _“**ja, mits** voldaan aan eis 9.a, 9.b of 9.c.”_
+- Voor bijzondere persoonsgegevens geldt: _“**nee, tenzij** voldaan aan eis 9.a of 9.b of aan eis 9.c met explain.”_
+
+Semantisch lijkt er een verschil te zijn, maar in de praktijk komt het op hetzelfde neer en kan in beide gevallen de public cloud worden gebruikt. 
+
+## Serverlocaties: veiligheid of schijnveiligheid? 
+
+Clausule 9.a (uit het voorbeeld hierboven) uit het Rijksbreed Cloudbeleid stelt dat (bijzondere) persoonsgegevens in de public cloud mogen worden opgeslagen of verwerkt, mits dit gebeurt binnen de Europese Economische Ruimte (EER). Dat klinkt veilig en bijna alle grote cloudproviders – zelfs Alibaba – hebben inmiddels datacenters in Europa. Maar helpt dit echt? 
+
+Zoals we eerder benadrukten in een vorig artikel, biedt deze clausule weinig echte bescherming. De locatie van een server maakt niet veel uit: onder de Amerikaanse CLOUD Act kan de Amerikaanse overheid inzage eisen in alle data die wordt opgeslagen bij Amerikaanse bedrijven (zoals Microsoft, Amazon en Google), ongeacht de fysieke locatie van die servers. Met de recente herverkiezing van Trump als president wordt deze situatie nóg ingewikkelder. De afgelopen jaren was er sprake van relatieve stabiliteit en samenwerking tussen Europa en de VS, maar Trumps focus op nationale belangen zet deze balans onder druk. 
+
+Krijg je dan een melding als jouw (bijzondere) persoonsgegevens worden opgeëist door de Amerikaanse overheid? Nee, niet van de Amerikaanse overheid in ieder geval. De cloudprovider mag jou wel op de hoogte stellen, maar dat is niet verplicht en de Amerikaanse overheid kan dit zelfs verbieden. (Source).
+
+## Rapport Algemene Rekenkamer 
+
+De Auditdienst Rijk (ADR) en het CIO Rijk kwamen vorig jaar al met hun rapporten, maar eergisteren kwam ook de Algemene Rekenkamer (ARK) met haar rapport Het Rijk in de cloud. De conclusies zijn scherp en fel: 
+
+Het Rijk heeft beperkt zicht op clouddiensten. Van 411 (26%) afgenomen clouddiensten is bij ministeries niet bekend of het om public cloud gaat.
+Het Rijk maakt onvoldoende strategische risicoafwegingen. Voor twee derde van de belangrijkste clouddiensten zijn niet de vereiste risicoafwegingen gemaakt.
+Het Rijk waarborgt onvoldoende de principes (digitale) soevereiniteit, continuïteit van de dienstverlening en gegevensbescherming. 
+
+> Test
+
+> "Op basis van dit onderzoek concluderen we dat het Rijk ondoordacht cloud is gaan gebruiken en nu onvoldoende grip op heeft op zijn cloudgebruik. We beoordelen het cloudgebruik door het Rijk dan ook als zorgelijk. De dienstverlening aan burgers en bedrijven en de continuïteit van het functioneren van de overheid lopen immers te veel risico. De mogelijke schade van verstoorde overheidsdienstverlening kan ons land en onze maatschappij ontwrichten. Daarnaast kan cloudbeleid – en de uitvoering hiervan – niet los worden gezien van een context waarin geopolitieke ontwikkelingen verontrustend zijn." - ARK
+
+De staatssecretaris van Koninkrijksrelaties en Digitalisering, Zsolt Szabó, heeft gereageerd op de conclusies en aanbevelingen. In zijn brief geeft hij aan dat hij de hoofdconclusie van de ARK deelt dat het cloudgebruik van het Rijk zorgelijk is en dat verbetering nodig is. 
+
+Op basis van deze bevindingen, samen met de bevindingen van de ADR en het CIO Rijk, zijn herzieningsvoorstellen opgesteld voor het Rijksbreed Cloudbeleid en het bijbehorende Implementatiekader. Het streven is om in de eerste helft van 2025 het hernieuwde Rijksbreed Cloudbeleid vast te stellen. Daarnaast wordt in samenwerking met medeoverheden gewerkt aan een nieuw cloudbeleid dat voor de gehele overheid van toepassing zal zijn. 
+
+## Actiepunten voor publieke organisaties 
+
+Publieke organisaties worden het hardst geraakt door de kritiek op het Rijksbreed Cloudbeleid. De onzekerheid over wat hen te wachten staat maakt het lastig om strategische keuzes te maken. En hoe zit het met organisaties die net gemigreerd zijn naar Azure of daar mee bezig zijn – mag dat straks nog wel? 
+
+Hoe ga je met deze onzekerheid om als publieke organisatie?
+
+Om effectief in te spelen op de geplande herziening van het Rijksbreed Cloudbeleid – en toekomstige herzieningen die ongetwijfeld nog zullen volgen – is het van belang dat publieke organisaties in Nederland de volgende stappen ondernemen: 
+
+- **Beperk grote strategische wijzigingen** totdat het herziene Rijksbreed Cloudbeleid en Implementatiekader definitief zijn. 
+- **Volg beleidsontwikkelingen** en **versterk interne expertise** over cloud en privacy. 
+- **Herzie de interne cloudstrategie** en pas deze aan indien nodig. Als er nog geen cloudstrategie is, ontwikkel deze dan.
+- **Krijg jouw cloud governance op orde** om de correcte naleving en uitvoering van het Rijksbreed Cloudbeleid te waarborgen. 
+- **Richt een cloud competence center op** om kennis en expertise te centraliseren.
+- **Benadruk wendbaarheid en cloud-agnostische oplossingen** om afhankelijkheid van specifieke leveranciers te verminderen. 
+- **Onderzoek huidige alternatieven** voor Amerikaanse cloudproviders, waaronder Europese (private) cloudproviders. 
+- **Overweeg een hybride cloudstrategie**, waarbij gevoelige gegevens in een private cloud worden opgeslagen en minder gevoelige toepassingen in de public cloud. 
+- **Overweeg extra beveiligingsmaatregelen** zoals BYOK (Bring Your Own Key) of Double Key Encryption (DKE). Hoewel lastig en complex, behoud je hierdoor wel controle over data en sleutels, zelfs binnen public cloudomgevingen. Lees meer over [BYOK](https://learn.microsoft.com/en-us/azure/information-protection/byok-price-restrictions) of [DKE](https://learn.microsoft.com/en-us/purview/double-key-encryption).
+- **Werk proactief aan risico- en privacybeoordelingen**, vooral bij het toevoegen van nieuwe clouddiensten of wijzigingen in bestaande diensten. 
+
+## Wat nu? 
+
+Het is inmiddels duidelijk dat het Rijksbreed Cloudbeleid in zijn huidige vorm veel tekortkomingen kent. De echte oplossing ligt echter niet alleen bij het Rijk, maar vooral bij de EU. Er is behoefte aan een krachtig Europees alternatief dat autonomie en veiligheid waarborgt, maar de huidige projecten – zoals GAIA-X – blijven helaas achter bij de verwachtingen. Lees meer over GAIA-X in het artikel [Gaia-X is a distraction which should be abandoned](https://berthub.eu/articles/posts/gaia-x-is-an-expensive-distraction/) van Bert Hubert.
+
+Publieke organisaties staan voor een belangrijke uitdaging: hoe blijf je innoveren zonder deze afhankelijkheden te creëren en tegelijkertijd te voldoen aan de eisen van privacy? Dit vraagt om strategische keuzes, zoals het versterken van interne expertise, het prioriteren van cloud governance, het opzetten van een cloud competence center en het investeren in cloud-agnostische oplossingen. 
+
+\- Geronimo
