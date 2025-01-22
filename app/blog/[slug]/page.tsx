@@ -3,7 +3,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import { getBlogPosts, formatDate } from 'app/blog/utils';
 import { baseUrl } from 'app/sitemap';
 import remarkGfm from 'remark-gfm';
-import BlogPost from 'app/components/mdx';
+import CustomMDX from 'app/components/mdx';
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
@@ -92,10 +92,8 @@ export default async function Blog({ params }: { params: { slug: string } }) {
         </p>
       </div>
 
-      {/* Render MDX in a client component */}
       <article className="prose">
-        {/* We pass the serialized MDX to our client component */}
-        <BlogPost mdxSource={mdxSource} />
+        <CustomMDX mdxSource={mdxSource} />
       </article>
     </section>
   );
