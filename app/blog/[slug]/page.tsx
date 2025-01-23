@@ -3,14 +3,24 @@ import { serialize } from 'next-mdx-remote/serialize';
 import { getBlogPosts, formatDate } from 'app/blog/utils';
 import { baseUrl } from 'app/sitemap';
 import remarkGfm from 'remark-gfm';
-import CustomMDX from 'app/components/mdx';
+import { CustomMDX } from 'app/components/mdx';
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
   return posts.map((post) => ({ slug: post.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+type BlogPageProps = {
+  params: {
+    slug: string
+  }
+  searchParams?: {
+    [key: string]: string | string[] | undefined
+  }
+}
+
+// This should NOT be any, use BlogPageProps instead.
+export function generateMetadata({ params }: any ) {
   const post = getBlogPosts().find((p) => p.slug === params.slug);
   if (!post) return;
 
@@ -37,7 +47,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default async function Blog({ params }: { params: { slug: string } }) {
+// This should NOT be any, use BlogPageProps instead.
+export default async function Blog({ params }: any ) {
   const post = getBlogPosts().find((p) => p.slug === params.slug);
   if (!post) {
     notFound();

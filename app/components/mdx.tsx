@@ -7,6 +7,6 @@ interface CustomMDXProps {
   mdxSource: MDXRemoteSerializeResult;
 }
 
-export default function CustomMDX({ mdxSource }: CustomMDXProps) {
+export function CustomMDX({ mdxSource }: CustomMDXProps) {
   return <MDXRemote {...mdxSource} />;
 }
