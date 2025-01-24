@@ -32,10 +32,6 @@ export default function Page() {
         <p className="mb-4">
           {`Thanks for stopping by.`}
         </p>
-
-        <p className="mb-4">
-          {`- Geronimo`}
-        </p>
       </div>
     </section>
   )
