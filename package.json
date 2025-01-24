@@ -16,7 +16,7 @@
     "@vercel/speed-insights": "^1.0.9",
     "autoprefixer": "^10.4.20",
     "geist": "1.2.2",
-    "google": "link:@next/third-parties/google",
+    "google": "link:next/font/google",
     "next": "^15.1.5",
     "next-mdx-remote": "5.0.0",
     "postcss": "^8.5.1",

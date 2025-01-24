@@ -4,6 +4,13 @@ import { getBlogPosts, formatDate } from 'app/blog/utils';
 import { baseUrl } from 'app/sitemap';
 import remarkGfm from 'remark-gfm';
 import { CustomMDX } from 'app/components/mdx';
+import { Satisfy } from 'next/font/google';
+
+const satisfy = Satisfy({
+  subsets: ['latin'],
+  weight: '400',
+});
+
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
@@ -100,6 +107,14 @@ export default async function Blog({ params }: any ) {
       <article className="prose">
         <CustomMDX mdxSource={mdxSource} />
       </article>
+
+        
+      <div>
+        <p className={`${satisfy.className} text-2xl text-neutral-700 dark:text-neutral-300`}>
+          - G.
+        </p>
+      </div>
+
     </section>
   );
 }
