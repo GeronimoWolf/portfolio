@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.6",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "20.11.17",
@@ -15,6 +16,7 @@
     "@vercel/speed-insights": "^1.0.9",
     "autoprefixer": "^10.4.20",
     "geist": "1.2.2",
+    "google": "link:@next/third-parties/google",
     "next": "^15.1.5",
     "next-mdx-remote": "5.0.0",
     "postcss": "^8.5.1",
