@@ -64,7 +64,7 @@ export default async function Blog({ params }: any ) {
   const mdxSource = await serialize(post.content, {
     mdxOptions: {
       remarkPlugins: [remarkGfm],
-      // rehypePlugins: [], 
+      // rehypePlugins: [],
       format: 'mdx',
     },
   });
@@ -108,10 +108,10 @@ export default async function Blog({ params }: any ) {
         <CustomMDX mdxSource={mdxSource} />
       </article>
 
-        
+
       <div>
         <p className={`${satisfy.className} text-2xl text-neutral-700 dark:text-neutral-300`}>
-          - G.
+          - Geronimo
         </p>
       </div>
 
