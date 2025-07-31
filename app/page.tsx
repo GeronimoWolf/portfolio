@@ -13,24 +13,16 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p className="mb-4">
           Welcome to my online space. Here, I share ideas and perspectives
-          shaped by my work in tech, my journey into entrepreneurship,
-          and the occasional moments of quiet reflection that life inspires.
+          shaped by my work in tech. I hope
+          you'll find something valuable.
         </p>
-        <p className="mb-4">
-          This is not a place for quick thrills or flashy content (as you can
-          probably tell by the lack of styling). It's a calm corner for
-          exploration - whether about tech innovations, lessons learned from building
-          something new, or simple reflections on balancing work and family life.
+
+        <p className="mb-4"> Feel free to reach out through
+          LinkedIn through the link below.
         </p>
 
         <p className="mb-4">
-          If you're looking for new insights or practical ideas, I hope
-          you'll find something valuable. Feel free to reach out through
-          LinkedIn if you feel like it. (I'll try to get an e-mailaddress up soon).
-        </p>
-
-        <p className="mb-4">
-          Thanks for stopping by.
+          Thanks for reading!
         </p>
       </div>
     </section>
